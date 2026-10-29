@@ -1,0 +1,417 @@
+{
+  "crops": [
+    {
+      "id": "potato",
+      "name": "Potato",
+      "labels": [
+        "Potato___Early_blight",
+        "Potato___Late_blight",
+        "Potato___healthy"
+      ]
+    },
+    {
+      "id": "pepper",
+      "name": "Bell pepper",
+      "labels": ["Pepper,_bell___Bacterial_spot", "Pepper,_bell___healthy"]
+    },
+    {
+      "id": "corn",
+      "name": "Corn",
+      "labels": [
+        "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+        "Corn_(maize)___Common_rust_",
+        "Corn_(maize)___Northern_Leaf_Blight",
+        "Corn_(maize)___healthy"
+      ]
+    },
+    {
+      "id": "grape",
+      "name": "Grape",
+      "labels": [
+        "Grape___Black_rot",
+        "Grape___Esca_(Black_Measles)",
+        "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+        "Grape___healthy"
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "labels": [
+        "Apple___Apple_scab",
+        "Apple___Black_rot",
+        "Apple___Cedar_apple_rust",
+        "Apple___healthy"
+      ]
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "labels": [
+        "Tomato___Bacterial_spot",
+        "Tomato___Early_blight",
+        "Tomato___Late_blight",
+        "Tomato___Leaf_Mold",
+        "Tomato___Septoria_leaf_spot",
+        "Tomato___Spider_mites Two-spotted_spider_mite",
+        "Tomato___Target_Spot",
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "Tomato___Tomato_mosaic_virus",
+        "Tomato___healthy"
+      ]
+    }
+  ],
+  "advice": {
+    "Potato___Early_blight": {
+      "display_name": "Early blight",
+      "symptoms": "Brown leaf spots may show concentric rings, often starting on older leaves.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Potato___Late_blight": {
+      "display_name": "Late blight",
+      "symptoms": "Irregular water-soaked or dark lesions may spread rapidly in cool, wet conditions.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Potato___healthy": {
+      "display_name": "Healthy",
+      "symptoms": "No disease category was selected by the model; this does not rule out stress or disease.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Continue monitoring the plant.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Pepper,_bell___Bacterial_spot": {
+      "display_name": "Bacterial spot",
+      "symptoms": "Small dark or water-soaked spots may be accompanied by yellowing.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Pepper,_bell___healthy": {
+      "display_name": "Healthy",
+      "symptoms": "No disease category was selected by the model; this does not rule out stress or disease.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Continue monitoring the plant.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+      "display_name": "Cercospora leaf spot gray leaf spot",
+      "symptoms": "Elongated gray or tan lesions may run between leaf veins.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Corn_(maize)___Common_rust_": {
+      "display_name": "Common rust",
+      "symptoms": "Small raised rust-colored pustules may appear on leaf surfaces.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+      "display_name": "Northern leaf blight",
+      "symptoms": "Long gray-green to tan lesions may develop along leaves.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Corn_(maize)___healthy": {
+      "display_name": "Healthy",
+      "symptoms": "No disease category was selected by the model; this does not rule out stress or disease.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Continue monitoring the plant.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Grape___Black_rot": {
+      "display_name": "Black rot",
+      "symptoms": "Brown lesions and dark fungal structures can occur; signs vary with the crop.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "display_name": "Esca (black measles)",
+      "symptoms": "Interveinal discoloration may produce a striped or tiger-like pattern.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "display_name": "Leaf blight (isariopsis leaf spot)",
+      "symptoms": "Angular brown leaf lesions may enlarge and merge.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Grape___healthy": {
+      "display_name": "Healthy",
+      "symptoms": "No disease category was selected by the model; this does not rule out stress or disease.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Continue monitoring the plant.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Apple___Apple_scab": {
+      "display_name": "Apple scab",
+      "symptoms": "Olive-green to brown spots may develop on leaves and fruit.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Apple___Black_rot": {
+      "display_name": "Black rot",
+      "symptoms": "Brown lesions and dark fungal structures can occur; signs vary with the crop.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Apple___Cedar_apple_rust": {
+      "display_name": "Cedar apple rust",
+      "symptoms": "Bright yellow-orange spots may form on leaves.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Apple___healthy": {
+      "display_name": "Healthy",
+      "symptoms": "No disease category was selected by the model; this does not rule out stress or disease.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Continue monitoring the plant.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Tomato___Bacterial_spot": {
+      "display_name": "Bacterial spot",
+      "symptoms": "Small dark or water-soaked spots may be accompanied by yellowing.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Tomato___Early_blight": {
+      "display_name": "Early blight",
+      "symptoms": "Brown leaf spots may show concentric rings, often starting on older leaves.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Tomato___Late_blight": {
+      "display_name": "Late blight",
+      "symptoms": "Irregular water-soaked or dark lesions may spread rapidly in cool, wet conditions.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Tomato___Leaf_Mold": {
+      "display_name": "Leaf mold",
+      "symptoms": "Pale upper-leaf patches may correspond to olive or brown growth underneath.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "display_name": "Septoria leaf spot",
+      "symptoms": "Small spots with pale centers and darker margins may occur.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "display_name": "Spider mites two-spotted spider mite",
+      "symptoms": "Fine stippling, bronzing and webbing may occur; inspect leaf undersides.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Tomato___Target_Spot": {
+      "display_name": "Target spot",
+      "symptoms": "Brown lesions may show concentric rings and merge.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "display_name": "Tomato yellow leaf curl virus",
+      "symptoms": "Leaf curling, yellowing and reduced growth may occur.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "display_name": "Tomato mosaic virus",
+      "symptoms": "Mottled light and dark areas, distorted leaves and stunting may occur.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Compare several leaves and consult a local agricultural extension specialist before treatment.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    },
+    "Tomato___healthy": {
+      "display_name": "Healthy",
+      "symptoms": "No disease category was selected by the model; this does not rule out stress or disease.",
+      "prevention": [
+        "Monitor new growth and both leaf surfaces.",
+        "Maintain suitable spacing and avoid prolonged leaf wetness.",
+        "Clean tools between plants and use healthy planting material."
+      ],
+      "next_step": "Continue monitoring the plant.",
+      "review_status": "Educational draft; agronomist review required before field deployment.",
+      "revision": "2026-10-15",
+      "source": "Project educational summary; category names follow PlantVillage. Not a treatment protocol."
+    }
+  }
+}
